@@ -14,16 +14,6 @@ const incrementCount3 = () => {
   console.log("incrementCount3 called");
 };
 
-// const isOdd = computed(() => {
-//   const now = new Date();
-//   return now.getSeconds() % 2 === 1;
-// });
-// const checkIsOdd = () => {
-//   const now = new Date();
-//   return now.getSeconds() % 2 === 1;
-// };
-// const isOdd = computed(() => checkIsOdd());
-
 // 判定結果を一時的に保持するref
 const lastIsOdd = ref<boolean>(true)
 
